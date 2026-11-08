@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+sources.json
+# 构建产物：运行 build.py 即生成本地 json / js，不入库
+web/starmap.json
+web/starmap.js
+
+# 本机个人数据与截图，不入库
+data/
+docs/screenshot-*.png
+*.log

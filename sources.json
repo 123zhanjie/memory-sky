@@ -1,0 +1,16 @@
+{
+  "_comment": "大肥鱼记忆星图：数据来自本机 DSH 会话 + Claude Code transcript，经 tools/dsh_to_jsonl.py 归一化。重建：python3 tools/dsh_to_jsonl.py && python3 src/build.py --sources sources.json --out web/starmap.json",
+  "layout_iters": 80,
+  "df_max": 25,
+  "edge_per_node": 3,
+  "edge_min_score": 1.2,
+  "min_len": 20,
+  "sources": [
+    {
+      "type": "jsonl",
+      "name": "feiyu",
+      "path": "data/dsh-memories.jsonl",
+      "weight_default": 0.7
+    }
+  ]
+}

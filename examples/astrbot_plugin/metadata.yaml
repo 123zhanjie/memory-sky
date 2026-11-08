@@ -1,0 +1,7 @@
+name: astrbot_plugin_memory_starmap
+display_name: 记忆星图
+desc: 把长期记忆档案渲染成可漫游的三维星图：构建构建器产物、托管前端页面、支持按需重建与截图。
+version: 0.1.0
+author: painter-7
+repo: https://github.com/painter-7/memory-starmap
+astrbot_version: ">=4.0.0"
